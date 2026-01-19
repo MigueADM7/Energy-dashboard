@@ -1,0 +1,10 @@
+import React from 'react';
+
+// Un componente contenedor simple con estilos bonitos
+export function Card({ children, className = "" }: { children: React.ReactNode, className?: string }) {
+  return (
+    <div className={`bg-white p-6 rounded-xl shadow-sm border border-gray-100 ${className}`}>
+      {children}
+    </div>
+  );
+}
