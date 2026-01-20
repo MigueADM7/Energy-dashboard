@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Botones de Acción */}
           <div className="flex items-center gap-4">
             <a 
-              href="https://github.com/tu-usuario" 
+              href="https://github.com/MigueADM7/Energy-dashboard" 
               target="_blank" 
               className="p-2 text-gray-500 hover:text-black transition-colors"
             >
