@@ -9,15 +9,15 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <CodeXml className="w-8 h-8 text-blue-600" />
             <span className="font-bold text-xl tracking-tight text-gray-900">
-              DevPort<span className="text-blue-600">.</span>
+              MigueDev<span className="text-blue-600">.</span>
             </span>
           </div>
 
           {/* Enlaces Rápidos */}
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
-            <a href="#" className="hover:text-blue-600 transition-colors">Proyectos</a>
-            <a href="#" className="hover:text-blue-600 transition-colors">Tecnologías</a>
-            <a href="#" className="hover:text-blue-600 transition-colors">Sobre mí</a>
+            <a href="#proyectos" className="hover:text-blue-600 transition-colors">Proyectos</a>
+            <a href="#tecnologias" className="hover:text-blue-600 transition-colors">Tecnologías</a>
+            <a href="#sobre-mi" className="hover:text-blue-600 transition-colors">Sobre mí</a>
           </div>
 
           {/* Botones de Acción */}
