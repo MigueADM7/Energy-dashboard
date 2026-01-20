@@ -56,8 +56,8 @@ export default function Home() {
               <Zap className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-sm text-gray-500">Consumo Total</p>
-              <p className="text-2xl font-bold">{metrics.totalUsage} kWh</p>
+              <p className="text-sm text-gray-900">Consumo Total</p>
+              <p className="text-2xl font-bold text-gray-500">{metrics.totalUsage} kWh</p>
             </div>
           </Card>
 
@@ -66,8 +66,8 @@ export default function Home() {
               <DollarSign className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-sm text-gray-500">Costo Estimado</p>
-              <p className="text-2xl font-bold">${metrics.totalCost}</p>
+              <p className="text-sm text-gray-900">Costo Estimado</p>
+              <p className="text-2xl font-bold text-gray-500">${metrics.totalCost}</p>
             </div>
           </Card>
 
@@ -76,8 +76,8 @@ export default function Home() {
               <TrendingUp className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-sm text-gray-500">Pico Máximo</p>
-              <p className="text-2xl font-bold">{metrics.peak} kWh</p>
+              <p className="text-sm text-gray-900">Pico Máximo</p>
+              <p className="text-2xl font-bold text-gray-500">{metrics.peak} kWh</p>
             </div>
           </Card>
         </div>
