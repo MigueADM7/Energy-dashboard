@@ -29,9 +29,14 @@ const Navbar = () => {
             >
               <Github className="w-5 h-5" />
             </a>
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition-all flex items-center gap-2">
+            <a 
+              href="mailto:mdelgadom2025@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition-all flex items-center gap-2"
+            >
               Contacto <ExternalLink className="w-4 h-4" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
