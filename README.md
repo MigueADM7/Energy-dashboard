@@ -30,8 +30,7 @@ Esta aplicación permite visualizar patrones de consumo, costos estimados y pico
 ## 📸 Vista Previa
 
 > [!TIP]
-> **[AQUÍ PUEDES PEGAR UNA CAPTURA DE PANTALLA DE TU PROYECTO]**
-> *Puedes simplemente arrastrar una imagen a este archivo en GitHub para que se cargue.*
+> <img width="1168" height="658" alt="image" src="https://github.com/user-attachments/assets/21b23726-ac05-42a0-9471-baf9e20697b2" />
 
 ## 📂 Estructura del Proyecto
 
