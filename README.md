@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Energy Insight Dashboard
 
-## Getting Started
+> Un dashboard interactivo y moderno para la monitorización de consumo energético en tiempo real.
 
-First, run the development server:
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](TU_LINK_DE_VERCEL_AQUÍ)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Esta aplicación permite visualizar patrones de consumo, costos estimados y picos de demanda mediante gráficos dinámicos y métricas clave, ayudando a los usuarios a tomar decisiones informadas sobre su gasto energético.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Características Principales
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Visualización de Datos:** Gráficos de líneas interactivos utilizando `Recharts`.
+* **Métricas en Tiempo Real:** Cálculo automático de consumo total, costo y picos máximos.
+* **Filtros Dinámicos:** Selector de periodos (Hoy vs Ayer) con actualización de UI instantánea.
+* **Diseño Responsive:** Adaptado para dispositivos móviles, tablets y escritorio con `Tailwind CSS`.
+* **Arquitectura Limpia:** Separación de componentes de UI, lógica de negocio y servicios.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Tecnología | Uso |
+| :--- | :--- |
+| **Next.js 14** | Framework de React para el frontend y routing. |
+| **TypeScript** | Tipado estático para un código más robusto y mantenible. |
+| **Tailwind CSS** | Estilizado moderno y utilitario. |
+| **Recharts** | Librería de gráficos de alto rendimiento. |
+| **Lucide React** | Set de iconos vectoriales consistentes. |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Vista Previa
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> [!TIP]
+> **[AQUÍ PUEDES PEGAR UNA CAPTURA DE PANTALLA DE TU PROYECTO]**
+> *Puedes simplemente arrastrar una imagen a este archivo en GitHub para que se cargue.*
 
-## Deploy on Vercel
+## 📂 Estructura del Proyecto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+ ├── app/             # Rutas y páginas principales
+ ├── components/      
+ │    ├── ui/         # Componentes atómicos (Cards, Buttons)
+ │    ├── features/   # Componentes con lógica de negocio (Charts)
+ │    └── layout/     # Componentes de estructura (Navbar)
+ ├── services/        # Lógica de procesamiento de datos
+ └── types/           # Definiciones de TypeScript
