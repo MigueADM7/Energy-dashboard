@@ -28,7 +28,7 @@ Esta aplicación permite visualizar patrones de consumo, costos estimados y pico
 | **Lucide React** | Set de iconos vectoriales consistentes. |
 
 ## 📸 Vista Previa
-> <img width="1171" height="644" alt="image" src="https://github.com/user-attachments/assets/0f34b0f0-a0ec-49c1-8761-4195352590c2" />
+> <img width="1194" height="656" alt="image" src="https://github.com/user-attachments/assets/2d93678c-0b30-49cb-bdf9-45371460654d" />
 
 ## 📂 Estructura del Proyecto
 
