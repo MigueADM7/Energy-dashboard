@@ -1,14 +1,14 @@
 "use client"; 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { EnergyData } from '@/types/energy';
-import { Card } from '@/components/ui/Card'; // Usamos tu nuevo componente UI
+import { Card } from '@/components/ui/Card';
 
 interface Props {
   data: EnergyData[];
   color: string;
 }
 
-// Ahora recibe datos por 'props', no los busca él mismo
+// Recibe datos por 'props'
 export default function EnergyChart({ data, color }: Props) {
   return (
     <Card className="h-[400px] w-full">
@@ -21,7 +21,7 @@ export default function EnergyChart({ data, color }: Props) {
           <Tooltip 
             contentStyle={{ borderRadius: '10px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
           />
-          {/* El color ahora es dinámico */}
+          {/* Color dinámico */}
           <Line 
             type="monotone" 
             dataKey="usage" 

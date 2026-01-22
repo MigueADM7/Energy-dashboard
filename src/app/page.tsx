@@ -1,4 +1,4 @@
-"use client"; // Necesario porque usaremos interactividad (useState)
+"use client"; // Necesario para interactividad (useState)
 
 import { useState } from "react";
 import { Zap, DollarSign, TrendingUp } from "lucide-react"; // Iconos
@@ -29,7 +29,7 @@ export default function Home() {
               <p className="text-gray-500">Monitorización de consumo en tiempo real</p>
             </div>
           
-            {/* Botones de Filtro (Wow Factor #2) */}
+            {/* Botones de Filtro */}
             <div className="bg-white p-1 rounded-lg border border-gray-200 shadow-sm flex">
               <button
                 onClick={() => setPeriod('today')}
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
           </header>
 
-          {/* Tarjetas de Resumen (Wow Factor #1) */}
+          {/* Tarjetas de Resumen */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="flex items-center gap-4 border-l-4 border-l-blue-500">
               <div className="p-3 bg-blue-100 rounded-full text-blue-600">

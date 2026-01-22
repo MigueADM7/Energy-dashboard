@@ -1,6 +1,6 @@
 import { EnergyData } from "@/types/energy";
 
-// Datos simuldados más completos
+// Datos simulados
 const DATA_STORE = {
   today: [
     { time: '00:00', usage: 30, cost: 4.5 },
@@ -27,7 +27,7 @@ export const getEnergyStats = (period: 'today' | 'yesterday' = 'today'): EnergyD
   return DATA_STORE[period];
 };
 
-// Función auxiliar para calcular totales (Lógica de negocio)
+// Función auxiliar para calcular totales
 export const calculateMetrics = (data: EnergyData[]) => {
   const totalUsage = data.reduce((acc, curr) => acc + curr.usage, 0);
   const totalCost = data.reduce((acc, curr) => acc + curr.cost, 0);
